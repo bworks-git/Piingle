@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Piingle</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href='//fonts.googleapis.com/css?family=Raleway:400,300,200' rel='stylesheet' type='text/css'>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+   <link rel="stylesheet" href="css/skeleton.css">
+   <link rel="stylesheet" href="css/style.css">
+
+
+  <link rel="stylesheet" href="css/responsiveslides.css">
+
+  <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+
+  <script src="js/jssor.slider.min.js"></script>
+
+  <script src="js/responsiveslides.min.js"></script>
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="../../dist/images/favicon.png">
+<style>
+  .rslides {
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    width: 110%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .rslides li {
+    -webkit-backface-visibility: hidden;
+    position: relative;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 0;
+  }
+
+  .rslides li:first-child {
+    position: relative;
+    display: block;
+    float: left;
+  }
+
+  .rslides img {
+    display: block;
+    height: auto;
+    float: left;
+    width: auto;
+    border: 0;
+  }
+  .rslides1 img {
+    display: block;
+    height: auto;
+    float: left;
+    width: auto;
+    border: 0;
+  }
+  .rslides2 img {
+    display: block;
+    height: auto;
+    float: left;
+    width: auto;
+    border: 0;
+  }
+  .rslides3 img {
+    display: block;
+    height: auto;
+    float: left;
+    width: auto;
+    border: 0;
+  }
+  .rslides4 img {
+    display: block;
+    height: auto;
+    float: left;
+    width: auto;
+    border: 0;
+    padding-top:2.5px;
+  }
+  .rslides5 img {
+    display: block;
+    height: auto;
+    float: left;
+    width: auto;
+    border: 0;
+  }
+  .rslides6 img {
+    display: block;
+    height: auto;
+    float: left;
+    width:260px;
+    border: 0;
+  }
+  .rslides7 img {
+    display: block;
+    height: auto;
+    float: left;
+    width: 125px;
+    border: 0;
+  }
+  .rslides8 img {
+    display: block;
+    height: auto;
+    float: left;
+    width: 125px;
+    border: 0;
+  }
+  .rslides9 img {
+    display: block;
+    height: auto;
+    float: left;
+    width:145px;
+    border: 0;
+  }
+  .rslides10 img {
+    display: block;
+    height: auto;
+    float: left;
+    width: 285px;
+    border: 0;
+  }
+  .rslides11 img {
+    display: block;
+    height: auto;
+    float: left;
+    width: 285px;
+    border: 0;
+  }
+  .slider {
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    width: 150%;
+    height:450px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .slider li {
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    display: none;
+    width: 100%;
+    height:450px;
+
+    left: 0;
+    top: 0;
+  }
+  .slider img {
+    display: block;
+    height:450px;
+    float: left;
+    width: 150%;
+    border: 0;
+  }
+</style>
+  <script>
+    jQuery(document).ready(function ($) {
+
+      $(".rslides").responsiveSlides({ speed: 200    });
+      $(".rslides1").responsiveSlides({ speed: 150      });
+      $(".rslides2").responsiveSlides({ speed: 2200      });
+      $(".rslides3").responsiveSlides({ speed: 3800      });
+      $(".rslides4").responsiveSlides({ speed: 150      });
+      $(".rslides5").responsiveSlides({ speed: 1250      });
+      $(".rslides6").responsiveSlides({ speed: 1750      });
+      $(".rslides7").responsiveSlides({ speed: 3650      });
+      $(".rslides8").responsiveSlides({ speed: 150      });
+      $(".rslides9").responsiveSlides({ speed: 1800      });
+      $(".rslides10").responsiveSlides({ speed: 3500      });
+      $(".rslides11").responsiveSlides({ speed: 200      });
+      $(".slider").responsiveSlides({});
+      $(".ipad").responsiveSlides();
+    });
+
+  </script>
+</head>
+<body>
+<div class="container1" style="background-size: cover;background:#FFFFFF;margin-left:7.5%;">
+  <div class="container">
+    <div class="row" >
+  
+<div class="menu" style="position:absolute;z-index:1000000;">
+            <ul id="nav" style="padding-top:1%">
+                
+                  
+                  <li style="margin-right:2%"><a href="#">GET STARTED</a></li>
+                  <li><a href="#">SUPPORT</a></li>
+                
+               
+                <li ><a href="#s2">BUSINESS</a>
+                    <span id="s2"></span>
+                    <ul class="subs">
+                        <li><a href="#">Header c</a>
+                            <ul>
+                                <li><a href="#">Submenu x</a></li>
+                                <li><a href="#">Submenu y</a></li>
+                                <li><a href="#">Submenu z</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Header d</a>
+                            <ul>
+                                <li><a href="#">Submenu x</a></li>
+                                <li><a href="#">Submenu y</a></li>
+                                <li><a href="#">Submenu z</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+               <li><a href="#">HOME</a></li>
+               <img src="img/logo.png" style="margin-left:2%">
+          
+            </ul>
+    </div> </div>
+</div></div>
+
+
+
+
+<div class="container1" style="width: 100%; height: 100%;">
+  <div class="container">
+    <div class="row" style="margin-left:-20.4%; margin-right:0%;">
+      <ul class="slider" >
+        <li><img src="img/banner-a.jpg" alt="" style="width: 100%; height: 100%;"></li>
+        <li><img src="img/banner-a.jpg" alt="" style="width: 100%;height: 100%;"></li>
+        <li><img src="img/banner-a.jpg" alt="" style="width: 100%;height: 100%;"></li>
+
+
+      </ul>
+    </div>
+    </div>
+    </div>
+  </div>
+</div>
+<div class="container2" style="margin-top:-3%;margin-bottom:-2.5%">
+  <div class="container">
+
+    <div class="row">
+      <p style="font-style: normal;font-family:Raleway;font-size:43px; font-weight:200; line-height: 100%;text-align:left;z-index:1000000;">
+        Helping millions of Indian Businesses power their<br>own currency!
+      </p>
+    </div>
+    <div class="row">
+      <p style=" color:#a9a9a9;font-style: normal;font-family:Raleway;font-size:15px;font-weight:300;line-height: 150%;text-align:left;z-index:1000000;margin-top:0%">
+        Gift Cards are the single-most preferred choice of gifting. They have proven to increase sales, increase brand value,  reduce cost and
+        improve overall operational efficiencies. As the popularity of gift cards continues to grow, more and more consumers are choosing the
+        convinience of gift cards as the simplest way to shop.
+      </p>
+    </div><br>
+    <div style="margin-left:0%; margin-bottom:0%">
+    <div class="row">
+      <div class="eight columns" >
+        <div class="row" style="background: #e05f03;width: 630px;height: 300px;text-align: left;">
+            
+            <h5 style="padding: 10%;padding-top:13%;color: #FFFFFF;font-size:23px;">Businesses across industry have recognised the absolute necessity to b a part of the Gift Cards revolution .</h5>
+
+        </div>
+        <div class="row" style="margin-top: 30px">
+          <ul class="rslides1">
+            <li><img src="img/Industries-1.jpg" alt=""></li>
+            <li><img src="img/Industries-1b.jpg" alt=""></li>
+
+          </ul>
+        </div>
+
+      </div>
+      <div class="four columns" style="margin-left: 31px;">
+        <ul class="rslides2" >
+          <li><img src="img/Industries-2.jpg" alt=""></li>
+          <li><img src="img/Industries-2b.jpg" alt=""></li>
+
+        </ul>
+      </div>
+    </div>
+    <div >
+    <div class="row">
+      <div class="four columns" style="margin-top:20px;">
+        <div class="row">
+          <ul class="rslides3">
+            <li><img src="img/Industries-3.jpg" alt=""></li>
+            <li><img src="img/Industries-3b.jpg" alt=""></li>
+
+          </ul>
+        </div>
+        <div class="row" style="margin-top: 20px;">
+          <ul class="rslides4">
+            <li><img src="img/Industries-4.jpg" alt=""></li>
+            <li><img src="img/Industries-4b.jpg" alt=""></li>
+
+          </ul>
+        </div>
+      </div>
+      <div class="eight columns" style="margin-left:30px; margin-top:20px">
+        <div class="row">
+          <ul class="rslides5">
+            <li><img src="img/Industries-5.jpg" alt=""></li>
+            <li><img src="img/Industries-5b.jpg" alt=""></li>
+
+          </ul>
+        </div>
+      </div></div>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="container3" >
+  <div class="container">
+  <!-- columns should be the immediate child of a .row -->
+  <div class="row">
+    <div class="six columns">
+      <img src="img/3-1.png" /><br><br>
+      <h5 >FREE SETUP</h5>
+      <p >
+        ZERO' is what it costs you to setup your gift card<br>
+        program. This is quite possibly your most powerful tool<br>
+        to drive your business at it's absolutely free.
+      </p>
+
+    </div>
+    <div class="six columns">
+      <img src="img/3-2.png" style="margin-top: -3%"/><br><br>
+      <h5 >GROW YOUR BUSINESS</h5>
+      <p >
+        Our extensive consumer and enterprise network starts<br>
+        working to increase your sales from the word go! This<br>
+        is your currency. Your asset that works for you .
+      </p>
+    </div>
+  </div>
+  </div>
+</div>
+<div class="container4" >
+  <div class="container">
+    <div class="row">
+      <div class="seven columns">
+        <h6 class="title-small">FEATURES</h6>
+        <p class="title">Customise your gift<br>cards!</p>
+        <p class="content">
+          Use our custom gift cards creator to help you align your business<br>
+          goals. Change the look of your gift cards based on the occasion,<br>
+          festival, business category of the month, End of Season sale, or<br>
+          any other promotional activity you have going on! All<br>
+          customisable within a few clicks.
+        </p>
+
+
+        <p class="content">
+          Our templates library has over 50000 gift card designs to choose<br>
+          from. Just add your logo or business name. Its that simple .<br>
+        </p>
+      </div>
+      <div class="five columns">
+        <img src="img/4.png" style="margin-top: 30%" />
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="containers5">
+  <div class="container">
+
+    <div class="row">
+      <p class="parallax-titles">Works seamlessly with<br>your business!</p>
+      <p class="parallax-contents">
+        Skypos will work seamlessly to deliver an exemplary<br>
+        customer experience day on day. Thats our promise.
+      </p>
+    </div>
+  </div>
+</div>
+<div class="container6">
+  <div class="container">
+    <div class="row">
+      <div class="six  columns">
+        <img src="img/ballon.png">
+      </div>
+      <div class="six  columns">
+        <p >
+          Businesses come in <br>
+          different sizes and<br>
+          shapes - So does our<br>
+          technology!
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container5">
+  <div class="container">
+
+    <div class="row">
+      <p class="container7-title">We take your business<br>very seriously! Seriously</p>
+      <p class="container7-content">
+        The gift card industry in India this year is pegged at a<br>
+        whopping 9000 crores, and we will make sure you get a<br>
+        serious shot at this business.
+      </p>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container8">
+  <div class="container">
+    <div class="row">
+      <h2 style="align-content: center">Every gift card sold virtually<br>guarantees 2x business!</h2>
+    </div>
+    <div class="row" >
+      <p style="color:#4a4f5b;">
+        Statistics across the top ten retailers globally has shown upto 5X business for every dollar send on Gift<br>
+        Cards. So what are you waiting for? Sign up now and let your brand do your work for you
+
+      </p>
+    </div><br>
+    <div class="row">
+      <button style="margin-top:1%;background:#4385f6;color:#ffffff;z-index:100000;border-radius:40px;border:2px #000000;">GET STARTED </button>
+    </div>
+  </div>
+</div>
+
+<div class="container9">
+  <div class="container">
+    <div class="row">
+      <div class="six  columns">
+        <p style="font-weight: lighter;color:#4a4f5b;font-size:35px;line-height: 120%;text-align: left;">
+          Accept your gift cards<br>
+          anywhere
+        </p>
+        <p style="font-weight:300;color:#a7a7a7;font-size:15px;line-height: 150%;text-align: left;">
+          Our simplified technology allows you to accept a gift card virtually
+          anywhere. From fashion to groceries, electronics to e-commerce, spas
+          to physical fitness, education to travel, beauty to professional services
+          or home and repair to transportation, doesn't matter where your place
+          of business is - seamlessly sell and accept your gift cards. And its very
+          safe - your Card information is encrypted and our systems are built to
+          make sure your data is always kept safe.
+        </p>
+      </div>
+      <div class="four  columns">
+        <ul class="rslides6">
+          <li><img src="img/Industries-6.jpg" alt=""></li>
+          <li><img src="img/Industries-6b.jpg" alt=""></li>
+
+        </ul>
+      </div>
+      <div class="two  columns" style="margin-left: -2%;">
+        <div class="row">
+          <ul class="rslides7">
+            <li><img src="img/Industries-7.jpg" alt=""></li>
+            <li><img src="img/Industries-7b.jpg" alt=""></li>
+
+          </ul>
+        </div>
+        <div class="row">
+          <ul class="rslides8">
+            <li><img src="img/Industries-8.jpg" alt=""></li>
+            <li><img src="img/Industries-8b.jpg" alt=""></li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container10">
+  <div class="container">
+    <div class="row">
+      <div class="six  columns">
+        <p style="font-weight:lighter;color:#4a4f5b;font-size:35px;line-height: 120%;text-align: left;">
+          Serious about Security
+        </p>
+        <p style="font-weight:300;color:#a7a7a7;font-size:15px;line-height: 150%;text-align: left;">
+          Square's approach to security is designed to protet both you and
+          your customers. We monitor every transaction from swipe to payment,
+          we continuously innovate in fraud prevention, and we protect your
+          data like our business depends on it-because it does. We adhere to
+          Industry - leading standards to manage our network, secure our web,
+          and client applications, and set policies across our organization.
+        </p>
+      </div>
+      <div class="six  columns">
+        <img src="img/9.png" style="margin-top: -2%"/>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container11">
+  <div class="container">
+
+    <div class="row" >
+      <p style="font-style: normal;color:#000000;font-family:Raleway;font-size:40px;line-height: 120%;text-align: center;z-index: 1000000;">
+        OSL Dashboard
+      </p>
+    </div>
+      <div class="row" >
+      <p style="font-style: normal;color:#a9a9a9;font-family:Raleway;font-size:15px;line-height: 150%;text-align: center;z-index: 1000000;">
+        All important data in one place - Manage your gifts cards, sell, redeem, track, reload, and repeat, view statistics all<br>
+        from your OSL dashboard. Sign into your dashboard and run your complete program from here.
+
+      </p>
+
+    </div><br>
+    <div class="row" style="background-image: url('img/dashboard.png');background-repeat: no-repeat;margin-left: 7.5%;margin-bottom: -1%;">
+      <ul class="ipad" style="margin-left: 13.2%;padding-top:3.60%;">
+        <li><img src="img/ipad_content.jpg" alt="" style="width:60.6%;height:58.3% ;"></li>
+        <li><img src="img/ipad_content.jpg" alt="" style="width:60.6%;height:58.3% ;"></li>
+
+
+      </ul>
+    </div>
+  </div>
+</div><br>
+<div class="container11" style="margin-top: -5%;">
+  <div class="container">
+
+    <div class="row" >
+      <p style="font-weight:lighter;color:#232d35;font-family:Raleway;font-size:40px;line-height: 120%;text-align: center;z-index: 1000000;">
+        Reports and analytics that mean<br>
+        business and make sense
+      </p>
+      <p style="font-style: normal;color:#a9a9a9;font-family:Raleway;font-size:15px;line-height: 150%;text-align: center;z-index: 1000000;">
+        Our advanced analytics will allow you to deep dive into your data and find meaningful and simple<br>
+        solutions to increase sales day after day.
+
+      </p>
+      </div><br>
+    <div class="row">
+      <img src="img/reports.png">
+      </div><br><br>><br>><br>
+    <div class="row">
+      <p style="font-weight:lighter;color:#4385f6;font-family:Raleway;font-size:40px;line-height: 120%;text-align: center;z-index: 1000000;">
+        Advanced Analytics = Increased Sales
+      </p>
+    </div>
+    <div class="row" >
+      <img src="img/reports-b.png">
+      <ul style="position:relative;color: #000;list-style-type: none;text-align: left;z-index: 100000; margin-top: -42%;margin-left: 45%;">
+        <li>Dynamic on demand charts</li><br>
+        <li>See whats working best for your business</li><br>
+        <li>Generate reports anytime of the day</li><br>
+        <li>Create sales programs based on analytics</li><br>
+        <li>Access sales and redemption trends</li><br>
+        <li>Day,week,month,annual and date range statistics</li>
+      </ul>
+    </div>
+  </div>
+</div>
+<br><br><br>
+<div class="container14" >
+  <div class="container">
+    <div class="row">
+      <div class="four  columns" style="margin-top: 15%;">
+        <p style="font-weight:lighter;color:#4a4f5b;font-size:35px;line-height: 120%;text-align: left;">
+          Send receipts right to their inbox
+        </p>
+        <p style="font-weight:300;color:#a7a7a7;font-size:15px;line-height: 150%;text-align: left;">
+          Use the power of transactions to drive more! OSL's transaction technology
+          now allows you to send
+          usage receipts across multiple channels.
+        </p>
+      </div>
+    <div class="eight  columns">
+      <img src="img/receipts.png">
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="container13" >
+  <div class="container">
+    <div class="row">
+      <p style="font-style: normal;color:#000000;font-family:Raleway;font-size:40px;line-height: 120%;text-align: center;z-index: 1000000;">
+        Get, Set, Go - thats all the time you need<br>
+        to accept your gift cards
+      </p>
+    </div>
+    <div class="row" style="padding-top: 5%;">
+      <div class="two  columns">
+        <ul class="rslides9">
+          <li><img src="img/Industries-9.jpg" alt=""></li>
+          <li><img src="img/Industries-9b.jpg" alt=""></li>
+
+        </ul>
+      </div>
+      <div class="four  columns">
+        <div class="row">
+          <ul class="rslides10">
+            
+ <li><img src="img/Industries-11.jpg" alt=""></li>
+            <li><img src="img/Industries-11b.jpg" alt=""></li>
+          </ul>
+        </div>
+        <div class="row" style="margin-top: 5%;">
+          <ul class="rslides11">
+           <li><img src="img/Industries-10.jpg" alt=""></li>
+            <li><img src="img/Industries-10b.jpg" alt=""></li>
+
+          </ul>
+        </div>
+      </div>
+      <div class="six  columns">
+
+        <p style="font-style: normal;color:#4385f6;font-family:Raleway;font-size:30px;line-height: 120%;text-align: center;z-index: 1000000;">
+          Make a statement at checkout!
+        </p>
+        <p style="font-style: normal;color:#4a4f5b;font-family:Raleway;font-size:16px;line-height: 170%;text-align: left;z-index: 1000000;">
+          Let other customers in line see the power of your gift card. We are not
+          joking when we tell you our technology is the quickest way to pay yet.
+          On busy days at the cash counter,keep the lines moving with our
+          quickpay Skypos.saved time means more business and satisfied
+          customers.The ease of paying with your gift card will drive sales and
+          make your currency their favourite mode of payment.
+
+        </p>
+    </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container12">
+  <div class="container">
+    <div class="row">
+      <p style="font-weight:lighter;color:#ffffff;z-index:100000000;font-family:Raleway;font-size:35px;line-height: 120%;text-align: center;">
+        Industries we serve
+      </p>
+    </div>
+    <div class="row" >
+     <div class="two columns" style="margin-left:1%;margin-right:3.5%">
+       <img src="img/14-1.png" />
+
+       <p style="font-style: normal;color:#4a4f5b;font-size:16px;line-height: 170%;text-align: center;z-index: 1000000;">
+         Beauty & <br>
+         Personal care
+       </p>
+     </div>
+      <div class="two columns" style="margin-left:3.5%;margin-right:3.5%">
+        <img src="img/14-2.png" >
+
+        <p style="padding-left:5%;font-style: normal;color:#4a4f5b;font-family:Raleway;font-size:16px;line-height: 170%;text-align: center;z-index: 1000000;">
+          Food & Drink
+        </p>
+      </div>
+      <div class="two columns" style="margin-left:3.5%;margin-right:3.5%">
+        <img src="img/14-3.png"  />
+
+        <p style="padding-left:5%;font-style: normal;color:#4a4f5b;font-family:Raleway;font-size:16px;line-height: 170%;text-align: center;z-index: 1000000;">
+          Retail
+        </p>
+      </div>
+      <div class="two columns" style="margin-left:3.5%;margin-right:3.5%">
+        <img src="img/14-4.png" />
+
+        <p style="padding-left:5%;font-style: normal;color:#4a4f5b;font-family:Raleway;font-size:16px;line-height: 170%;text-align: center;z-index: 1000000;">
+          Entertainment
+        </p>
+      </div>
+      <div class="two columns" style="margin-left:3.5%;margin-right:1%">
+        <img src="img/14-5.png"  />
+
+        <p style="padding-left:5%;font-style: normal;color:#4a4f5b;font-family:Raleway;font-size:16px;line-height: 170%;text-align: center;z-index: 1000000;">
+          Transportation
+        </p>
+      </div>
+    </div>
+
+    <div class="row" >
+      <div class="two columns" style="margin-left:1%;margin-right:3.5%">
+        <img src="img/14-6.png"  />
+
+        <p style="padding-left:5%;font-style: normal;color:#4a4f5b;font-family:Raleway;font-size:16px;line-height: 170%;text-align: center;z-index: 1000000;">
+        Home & Repair
+        </p>
+      </div>
+      <div class="two columns" style="margin-left:3.5%;margin-right:3.5%">
+        <img src="img/14-7.png"  />
+
+        <p style="padding-left:5%;font-style: normal;color:#4a4f5b;font-family:Raleway;font-size:16px;line-height: 170%;text-align: center;z-index: 1000000;">
+        Professional Services
+        </p>
+      </div>
+      <div class="two columns" style="margin-left:3.5%;margin-right:3.5%">
+        <img src="img/14-8.png"  />
+
+        <p style="padding-left:5%;font-style: normal;color:#4a4f5b;font-family:Raleway;font-size:16px;line-height: 170%;text-align: center;z-index: 1000000;">
+        Charity,education&<br>
+          membership
+        </p>
+      </div>
+      <div class="two columns" style="margin-left:3.5%;margin-right:3.5%">
+        <img src="img/14-9.png"  />
+
+        <p style="padding-left:5%;font-style: normal;color:#4a4f5b;font-family:Raleway;font-size:16px;line-height: 170%;text-align: center;z-index: 1000000;">
+        Health Care & <br>
+          Fitness
+        </p>
+      </div>
+      <div class="two columns" style="margin-left:3.5%;margin-right:1%">
+        <img src="img/14-10.png"  />
+
+        <p style="padding-left:5%;font-style: normal;color:#4a4f5b;font-family:Raleway;font-size:16px;line-height: 170%;text-align: center;z-index: 1000000;">
+        Casual Use
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="footer" >
+  <div class="container">
+    <div class="row" style="margin-left: -5%;">
+      <p style="font-style: normal;color:#ffffff;font-family:Raleway;font-size:15px;line-height: 130%;text-align: center;z-index: 1000000;">
+        Copyright@ 2015 piingle .All Rights Reserved.
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <a href="#" style="color:#4a4f5b;">Privacy</a>
+        <a href="#" style="color:#4a4f5b;">Terms</a>&nbsp&nbsp&nbsp&nbsp
+        <a href="#" style="color:#4a4f5b;">Contact Us</a>&nbsp&nbsp&nbsp&nbsp
+        <a href="#" style="color:#4a4f5b;">About</a>&nbsp&nbsp&nbsp&nbsp
+        <a href="#" style="color:#4a4f5b;">Seller Agreement</a>&nbsp&nbsp&nbsp&nbsp
+        <a href="#" style="color:#4a4f5b;">Support</a>
+
+
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
